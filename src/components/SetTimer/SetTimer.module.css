@@ -1,0 +1,52 @@
+.mainTimer {
+    margin: 5px 30px;
+}
+
+.mainTimer h1{
+    text-align: center;
+}
+
+.SetTimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    font-size: 30px;
+}
+
+.button {
+    font-size: 15px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 3px;
+}
+
+.icon {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .mainTimer {
+        margin: 0px 30px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .mainTimer {
+        margin: 0px;
+    }
+
+    .mainTimer h1 {
+        font-size: 20px!important;
+    }
+}

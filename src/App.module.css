@@ -1,0 +1,22 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 40px;
+}
+
+.Timer {
+  display: flex;
+}
+
+
+@media (max-width: 376px) {
+  .Title {
+    font-size: 35px;
+  }
+}

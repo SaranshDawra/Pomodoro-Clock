@@ -1,0 +1,50 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 164, 247);
+    height: 40%;
+    width: 60%;
+    border: 0.7rem solid hsla(0,0%,100%,.15);
+}
+
+@media (max-width: 426px) {
+    .Container {
+        width: 80%;
+    }
+}
+
+.Count {
+    font-size: 85px;
+    font-weight: 500;
+    padding: 7px;
+    text-align: center;
+}
+
+.Title {
+    margin: 10px auto;
+}
+
+.btnContainer {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.btnContainer button{
+    background-color: rgb(219, 164, 247);
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin: 0 7px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.btnContainer button:hover {
+    transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+    .btnContainer{
+        margin-top: 4%;
+    }
+}
